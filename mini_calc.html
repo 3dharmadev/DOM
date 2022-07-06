@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="" placeholder="enter first number" id="firstbox">
+    <input type="number" name="" placeholder="enter second number" id="secondbox">
+    <button id="add" onclick="Add()">Add</button>
+    <button id="multi" onclick="multi()">Multiply</button>
+    <button id="subtract" onclick="subtraction()">Subtract</button>
+    <button id="add" onclick="div()">Divide</button>
+</body>
+</html>
+<script>
+   function Add(){
+    let firstle = document.getElementById("firstbox").value;
+    let secondle = document.getElementById("secondbox").value;
+   alert(Number(firstle)+Number(secondle));
+    }
+    function multi(){
+    let firstle = document.getElementById("firstbox").value;
+    let secondle = document.getElementById("secondbox").value;
+   alert(Number(firstle)*Number(secondle));
+    }
+    function subtraction(){
+    let firstle = document.getElementById("firstbox").value;
+    let secondle = document.getElementById("secondbox").value;
+   alert(Number(firstle)-Number(secondle));
+    }
+    function div(){
+    let firstle = document.getElementById("firstbox").value;
+    let secondle = document.getElementById("secondbox").value;
+   alert(Number(firstle)/Number(secondle));
+    }
+</script>
